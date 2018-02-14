@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    h3 Simple explanation of Bootstrap
+    .container(style="margin-top: 2.5rem; background-color: rgba(0, 0, 0, 0.1);padding-top:6px; margin-bottom:2.5rem")
+        p(style="font-size:2rem").
+            The style of that website was made with Bootstrap which is one of the most popular library front-end of the world. I mean here that you can try to change the size of your window, the website will stay totally lisible and will be adapted to the window of your browser.
+    h3 Simple list of why I like boostrap
+
+    ul
+        each reason in reasons
+            li= reason
