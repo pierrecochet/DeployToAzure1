@@ -12,5 +12,5 @@ router.get('/',ctrlMain.index);
 router.get('/simpleabout',ctrlSimpleAbout.simpleabout);
 router.get('/simplecontact',ctrlSimpleContact.simplecontact);
 router.get('/simplestuff',ctrlSimpleStuff.simplestuff);
-router.get('/latebox',ctrlLateBox.latebox);
+router.get('/simplepicture',ctrlLateBox.latebox);
 module.exports = router;
