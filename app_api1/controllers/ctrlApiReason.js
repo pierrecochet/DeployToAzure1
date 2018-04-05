@@ -1,7 +1,5 @@
-// Get access to the database connection
 const mongoose = require('mongoose');
 
-// Get access to the 'goldenBallWinner' model so we can interact with the GoldenBallWinners collection
 const reasonModel = mongoose.model('reason');
 
 const reasonsList = function (req, res) {

@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="290165e6-cf76-47e0-ba13-33c911b35313" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app_api1/controllers/ctrlApiReason.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app_api1/models/appSchemas.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app_api1/models/db.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app_api1/routes/indexApi.js" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change beforePath="$PROJECT_DIR$/app_server/models/appSchemas.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/app_server/models/db.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app_api/controllers/ctrlApiReason.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app_api/models/appSchemas.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app_api/models/db.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app_api/routes/indexApi.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app_api/scripts/addTestDocuments.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/app_api1/controllers/ctrlApiReason.js" afterPath="$PROJECT_DIR$/app_api1/controllers/ctrlApiReason.js" />
+      <change beforePath="$PROJECT_DIR$/app_api1/routes/indexApi.js" afterPath="$PROJECT_DIR$/app_api1/routes/indexApi.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ctrlApiReason.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ctrlApiReason.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app_api1/controllers/ctrlApiReason.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="indexApi.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="indexApi.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app_api1/routes/indexApi.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -135,8 +134,8 @@
         <option value="$PROJECT_DIR$/app_api1/models/appSchemas.js" />
         <option value="$PROJECT_DIR$/app_api1/models/db.js" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/app_api1/routes/indexApi.js" />
         <option value="$PROJECT_DIR$/app_api1/controllers/ctrlApiReason.js" />
+        <option value="$PROJECT_DIR$/app_api1/routes/indexApi.js" />
       </list>
     </option>
   </component>
@@ -292,12 +291,12 @@
       <workItem from="1521073982411" duration="14000" />
       <workItem from="1521074024715" duration="42000" />
       <workItem from="1521074159750" duration="4383000" />
-      <workItem from="1522885340191" duration="6471000" />
+      <workItem from="1522885340191" duration="6653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38237000" />
+    <option name="totallyTimeSpent" value="38419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="928" height="1056" extended-state="4" />
@@ -610,9 +609,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -672,6 +669,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app_api1/controllers/ctrlApiReason.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app_server/views/layout.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="30" column="45" lean-forward="false" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app_api1/models/appSchemas.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -690,24 +703,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app_api1/routes/indexApi.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_server/views/layout.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="30" column="45" lean-forward="false" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app_api1/controllers/ctrlApiReason.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="90">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
