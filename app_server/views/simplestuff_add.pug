@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    .main.container
+        .row
+            .col-md-6.col-md-offset-3
+                // register form not function as there is no db yet
+                form(method='post' action='')
+                    div.form-group
+                        label(for='reason') Reason:
+                        input#reason.form-control(type='text', placeholder='ex : Dynamic resize' name='reason')
+                    div.form-group
+                        label(for="advantage") Advantage:
+                        input#advantage.form-control(type='text', placeholder='ex : Esthetically pretty' name='advantage')
+                    button.btn.btn-primary(type='submit') Send

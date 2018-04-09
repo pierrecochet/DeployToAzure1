@@ -1,5 +1,35 @@
 const request = require('request');
 const apiURL = require("./api_URLs");
+const showForm = function(req, res){
+    res.render('simplestuff_add');
+};
+
+const addData = function(req,res){
+    const path = '/api/reasons';
+    const postdata = {
+        reason: req.body.reason,
+        advantage: req.body.advantage
+    };
+
+    const requestOptions = {
+        url : apiURL.server + path,
+        method : 'POST',
+        json : postdata
+    };
+
+    request(
+        requestOptions,
+        function (err, response){
+            if (response.statusCode === 201) {
+                res.redirect('/simplestuff');
+            } else {
+                res.render('error', {message: 'Error adding data: ' +
+                    response.statusMessage +
+                    ' ('+ response.statusCode + ')' });
+            }
+        }
+    );
+};
 
 const simplestuff = function(req,res){
     const path = '/api/reasons';
@@ -29,6 +59,8 @@ const simplestuff = function(req,res){
     );
 };
 module.exports = {
-    simplestuff
+    simplestuff,
+    showForm,
+    addData
 }
 
