@@ -2,7 +2,7 @@
 
 ## Simple website
 
-Simple is just a website where you can find a compilation of simple stuff in order to provide an example of website developped MEAN.
+Simple is just a website where you can find a compilation of simple stuff in order to provide an example of website developped with MEAN.
 
 
 ### Installing
